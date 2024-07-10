@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "request": "launch",
+            "name": "Launch Program",
+            "type": "node",
+            "program": "${workspaceFolder}/index.js",  // Adjust this to point to index.js
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "runtimeExecutable": "C:\\Program Files\\nodejs\\node.exe",
+            "runtimeArgs": [
+                "--inspect-brk"
+            ],
+            "attachSimplePort": 9229
+        }
+    ]
+}
